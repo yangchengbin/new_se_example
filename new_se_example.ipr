@@ -159,6 +159,7 @@
       <module fileurl="file://$PROJECT_DIR$/jdbc/jdbc.iml" filepath="$PROJECT_DIR$/jdbc/jdbc.iml" />
       <module fileurl="file://$PROJECT_DIR$/listener/listener.iml" filepath="$PROJECT_DIR$/listener/listener.iml" />
       <module fileurl="file://$PROJECT_DIR$/log4j/log4j.iml" filepath="$PROJECT_DIR$/log4j/log4j.iml" />
+      <module fileurl="file://$PROJECT_DIR$/memcached/memcached.iml" filepath="$PROJECT_DIR$/memcached/memcached.iml" />
       <module fileurl="file://$PROJECT_DIR$/replace_excel_file/replace_excel_file.iml" filepath="$PROJECT_DIR$/replace_excel_file/replace_excel_file.iml" />
       <module fileurl="file://$PROJECT_DIR$/replace_word_file/replace_word_file.iml" filepath="$PROJECT_DIR$/replace_word_file/replace_word_file.iml" />
     </modules>
