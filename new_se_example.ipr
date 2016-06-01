@@ -156,12 +156,15 @@
   </component>
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/dom4j/dom4j.iml" filepath="$PROJECT_DIR$/dom4j/dom4j.iml" />
       <module fileurl="file://$PROJECT_DIR$/jdbc/jdbc.iml" filepath="$PROJECT_DIR$/jdbc/jdbc.iml" />
       <module fileurl="file://$PROJECT_DIR$/listener/listener.iml" filepath="$PROJECT_DIR$/listener/listener.iml" />
       <module fileurl="file://$PROJECT_DIR$/log4j/log4j.iml" filepath="$PROJECT_DIR$/log4j/log4j.iml" />
       <module fileurl="file://$PROJECT_DIR$/memcached/memcached.iml" filepath="$PROJECT_DIR$/memcached/memcached.iml" />
       <module fileurl="file://$PROJECT_DIR$/replace_excel_file/replace_excel_file.iml" filepath="$PROJECT_DIR$/replace_excel_file/replace_excel_file.iml" />
       <module fileurl="file://$PROJECT_DIR$/replace_word_file/replace_word_file.iml" filepath="$PROJECT_DIR$/replace_word_file/replace_word_file.iml" />
+      <module fileurl="file://$PROJECT_DIR$/screenshot/screenshot.iml" filepath="$PROJECT_DIR$/screenshot/screenshot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/two_dimension_code/two_dimension_code.iml" filepath="$PROJECT_DIR$/two_dimension_code/two_dimension_code.iml" />
       <module fileurl="file://$PROJECT_DIR$/utils/utils.iml" filepath="$PROJECT_DIR$/utils/utils.iml" />
     </modules>
   </component>

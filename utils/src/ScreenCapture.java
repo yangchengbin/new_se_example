@@ -6,7 +6,7 @@ import java.io.File;
 /**
  * 截屏
  */
-public class TestScreenCapture {
+public class ScreenCapture {
     public static void main(String[] args) {
         try {
             Dimension dim = Toolkit.getDefaultToolkit().getScreenSize();
