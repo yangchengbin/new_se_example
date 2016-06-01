@@ -162,6 +162,7 @@
       <module fileurl="file://$PROJECT_DIR$/memcached/memcached.iml" filepath="$PROJECT_DIR$/memcached/memcached.iml" />
       <module fileurl="file://$PROJECT_DIR$/replace_excel_file/replace_excel_file.iml" filepath="$PROJECT_DIR$/replace_excel_file/replace_excel_file.iml" />
       <module fileurl="file://$PROJECT_DIR$/replace_word_file/replace_word_file.iml" filepath="$PROJECT_DIR$/replace_word_file/replace_word_file.iml" />
+      <module fileurl="file://$PROJECT_DIR$/utils/utils.iml" filepath="$PROJECT_DIR$/utils/utils.iml" />
     </modules>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_6" assert-keyword="true" jdk-15="true" project-jdk-name="1.7" project-jdk-type="JavaSDK">
