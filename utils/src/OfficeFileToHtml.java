@@ -6,8 +6,8 @@ import com.jacob.com.Variant;
  * office文件转换为html文件
  */
 public class OfficeFileToHtml {
-    int WORD_HTML = 8;
-    int EXCEL_HTML = 44;
+    static int WORD_HTML = 8;
+    static int EXCEL_HTML = 44;
 
     /**
      * WORD转HTML
@@ -15,7 +15,7 @@ public class OfficeFileToHtml {
      * @param wordFile word全路径
      * @param htmlFile html全路径
      */
-    public void wordToHtml(String wordFile, String htmlFile) {
+    public static void wordToHtml(String wordFile, String htmlFile) {
         ActiveXComponent app = new ActiveXComponent("Word.Application");
         try {
             app.setProperty("Visible", new Variant(false));
@@ -37,7 +37,7 @@ public class OfficeFileToHtml {
      * @param xlsFile
      * @param htmlFile
      */
-    public void excelToHtml(String xlsFile, String htmlFile) {
+    public static void excelToHtml(String xlsFile, String htmlFile) {
         ActiveXComponent app = new ActiveXComponent("Excel.Application");
         try {
             app.setProperty("Visible", new Variant(false));
@@ -51,5 +51,9 @@ public class OfficeFileToHtml {
         } finally {
             app.invoke("Quit", new Variant[]{});
         }
+    }
+
+    public static void main(String[] args) {
+        excelToHtml("e:/test.xlsx", "e:/" + System.currentTimeMillis() + ".html");
     }
 }
