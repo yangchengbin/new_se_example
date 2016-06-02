@@ -163,6 +163,7 @@
       <module fileurl="file://$PROJECT_DIR$/memcached/memcached.iml" filepath="$PROJECT_DIR$/memcached/memcached.iml" />
       <module fileurl="file://$PROJECT_DIR$/replace_excel_file/replace_excel_file.iml" filepath="$PROJECT_DIR$/replace_excel_file/replace_excel_file.iml" />
       <module fileurl="file://$PROJECT_DIR$/replace_word_file/replace_word_file.iml" filepath="$PROJECT_DIR$/replace_word_file/replace_word_file.iml" />
+      <module fileurl="file://$PROJECT_DIR$/repository/repository.iml" filepath="$PROJECT_DIR$/repository/repository.iml" />
       <module fileurl="file://$PROJECT_DIR$/screenshot/screenshot.iml" filepath="$PROJECT_DIR$/screenshot/screenshot.iml" />
       <module fileurl="file://$PROJECT_DIR$/two_dimension_code/two_dimension_code.iml" filepath="$PROJECT_DIR$/two_dimension_code/two_dimension_code.iml" />
       <module fileurl="file://$PROJECT_DIR$/utils/utils.iml" filepath="$PROJECT_DIR$/utils/utils.iml" />
@@ -177,11 +178,11 @@
   <component name="libraryTable">
     <library name="lib">
       <CLASSES>
-        <root url="file://$PROJECT_DIR$/lib" />
+        <root url="file://$PROJECT_DIR$/repository/lib" />
       </CLASSES>
       <JAVADOC />
       <SOURCES />
-      <jarDirectory url="file://$PROJECT_DIR$/lib" recursive="false" />
+      <jarDirectory url="file://$PROJECT_DIR$/repository/lib" recursive="false" />
     </library>
   </component>
 </project>
