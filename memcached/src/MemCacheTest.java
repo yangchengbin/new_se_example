@@ -2,12 +2,12 @@ import com.danga.MemCached.MemCachedClient;
 import com.danga.MemCached.SockIOPool;
 
 public class MemCacheTest {
-    protected static MemCachedClient mcc = new MemCachedClient();
+    private static MemCachedClient mcc = new MemCachedClient();
 
     static {
         SockIOPool pool = SockIOPool.getInstance();
-        String[] servers = {"192.168.0.4:11211"};
-        Integer[] weights = {1};
+        String[] servers = {"localhost:11211", "localhost:11221"};
+        Integer[] weights = {1, 1};
         pool.setServers(servers);
         pool.setWeights(weights);
         pool.setNagle(false);
@@ -26,6 +26,12 @@ public class MemCacheTest {
 
     public static void main(String[] args) {
         save("name", "hello");
+        save("age", "1");
+        save("sex", "man");
+        save("address", "china");
         System.out.println(get("name"));
+        System.out.println(get("age"));
+        System.out.println(get("sex"));
+        System.out.println(get("address"));
     }
 }
