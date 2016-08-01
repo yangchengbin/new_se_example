@@ -157,6 +157,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/concurrent_test/concurrent_test.iml" filepath="$PROJECT_DIR$/concurrent_test/concurrent_test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/db_pool/db_pool.iml" filepath="$PROJECT_DIR$/db_pool/db_pool.iml" />
       <module fileurl="file://$PROJECT_DIR$/dom4j/dom4j.iml" filepath="$PROJECT_DIR$/dom4j/dom4j.iml" />
       <module fileurl="file://$PROJECT_DIR$/jdbc/jdbc.iml" filepath="$PROJECT_DIR$/jdbc/jdbc.iml" />
       <module fileurl="file://$PROJECT_DIR$/listener/listener.iml" filepath="$PROJECT_DIR$/listener/listener.iml" />

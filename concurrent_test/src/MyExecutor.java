@@ -20,6 +20,7 @@ public class MyExecutor extends Thread {
 
     public static void main(String args[]) {
         ExecutorService service = Executors.newFixedThreadPool(3);
+
         for (int i = 0; i < 10; i++) {
             service.execute(new MyExecutor(i));
 //            service.submit(new MyExecutor(i));
